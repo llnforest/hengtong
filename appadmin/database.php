@@ -23,7 +23,7 @@ return [
    // 数据库用户名
    'username'    => 'root',
    // 数据库密码
-   'password'    => '',
+   'password'    => 'Lil.147',
 
     // 数据库连接端口
     'hostport'    => '',
