@@ -1,0 +1,2144 @@
+[ 2018-05-16T09:08:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/
+[ log ] 127.0.0.1/admin/ [运行时间：0.061000s][吞吐率：16.39req/s] [内存消耗：3,397.41kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/publics/login.html
+[ log ] 127.0.0.1/admin/index/publics/login.html [运行时间：0.036000s][吞吐率：27.78req/s] [内存消耗：3,305.22kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'publics',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] admin\index\controller\Publics->login[ D:\wamp64\www\hengtong\appadmin\index\controller\Publics.php ]
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\admin/../appadmin/index\view\publics\login.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:12+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/publics/login.html
+[ log ] 127.0.0.1/admin/index/publics/login.html [运行时间：0.102000s][吞吐率：9.80req/s] [内存消耗：4,400.78kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'publics',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '31',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/publics/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'lil',
+  'login_password' => 'lil.147',
+)
+[ info ] [ RUN ] admin\index\controller\Publics->login[ D:\wamp64\www\hengtong\appadmin\index\controller\Publics.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\thinkphp5.5\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+  5 => 'back',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `name` = 'lil'  AND `password` = '1c9c65587af89d4f5cab00b8fa27e0a1' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/publics/login.html
+[ log ] 127.0.0.1/admin/index/publics/login.html [运行时间：0.059000s][吞吐率：16.95req/s] [内存消耗：3,305.60kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'publics',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] admin\index\controller\Publics->login[ D:\wamp64\www\hengtong\appadmin\index\controller\Publics.php ]
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\admin/../appadmin/index\view\publics\login.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:24+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/publics/login.html
+[ log ] 127.0.0.1/admin/index/publics/login.html [运行时间：0.108000s][吞吐率：9.26req/s] [内存消耗：5,320.53kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'publics',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/publics/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'login_password' => '123456',
+)
+[ info ] [ RUN ] admin\index\controller\Publics->login[ D:\wamp64\www\hengtong\appadmin\index\controller\Publics.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin_log` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT ignore INTO `tp_admin_log` (`action_ip` , `username` , `log_url` , `log` , `user_id` , `title` , `create_time`) VALUES (2130706433 , '超管' , '/index/publics/login.html' , '管理员超管登录后台' , 1 , '后台登录' , '2018-05-16 09:08:24') [ RunTime:0.002000s ]
+[ sql ] [ SQL ] UPDATE `tp_admin`  SET `last_login_ip`='127.0.0.1',`last_login_time`='2018-05-16 09:08:24'  WHERE  `tp_admin`.`delete_time` IS NULL  AND `id` = 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index/index.html
+[ log ] 127.0.0.1/admin/index/index/index.html [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：5,357.99kb] [文件加载：65]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/publics/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] admin\index\controller\Index->index[ D:\wamp64\www\hengtong\appadmin\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\admin/../appadmin/index\view\index\index.php [ array (
+  0 => 'menu',
+  1 => 'username',
+  2 => 'systemname',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_auth_menu` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_auth_menu` WHERE  `status` = 1 ORDER BY `sort`  asc,`id`  asc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index/home.html
+[ log ] 127.0.0.1/admin/index/index/home.html [运行时间：0.065000s][吞吐率：15.38req/s] [内存消耗：3,469.12kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] admin\index\controller\Index->home[ D:\wamp64\www\hengtong\appadmin\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\admin/../appadmin/index\view\index\home.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/info/index.html
+[ log ] 127.0.0.1/admin/base/info/index.html [运行时间：0.105000s][吞吐率：9.52req/s] [内存消耗：5,492.55kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'info',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] admin\base\controller\Info->index[ D:\wamp64\www\hengtong\appadmin\base\controller\Info.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\admin/../appadmin/base\view\info\index.php [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_info` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/static/admin/ueditor/ueditor.config.js
+[ log ] 127.0.0.1/admin/static/admin/ueditor/ueditor.config.js [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：2,726.99kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/base/info/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/info/undefinedlang/zh-cn/zh-cn.js
+[ log ] 127.0.0.1/admin/base/info/undefinedlang/zh-cn/zh-cn.js [运行时间：0.066000s][吞吐率：15.15req/s] [内存消耗：3,475.03kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'info',
+    2 => 'undefinedlang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/base/info/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/info/undefinedthemes/default/css/ueditor.css
+[ log ] 127.0.0.1/admin/base/info/undefinedthemes/default/css/ueditor.css [运行时间：0.081000s][吞吐率：12.35req/s] [内存消耗：3,475.24kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'info',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/admin/base/info/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/info/index.html
+[ log ] 127.0.0.1/admin/base/info/index.html [运行时间：0.158000s][吞吐率：6.33req/s] [内存消耗：5,235.70kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'info',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] admin\base\controller\Info->index[ D:\wamp64\www\hengtong\appadmin\base\controller\Info.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\admin/../appadmin/base\view\info\index.php [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_info` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/static/admin/ueditor/ueditor.config.js
+[ log ] 127.0.0.1/admin/static/admin/ueditor/ueditor.config.js [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：2,726.99kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/base/info/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/info/undefinedthemes/default/css/ueditor.css
+[ log ] 127.0.0.1/admin/base/info/undefinedthemes/default/css/ueditor.css [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：3,475.48kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'info',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/admin/base/info/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/info/undefinedlang/zh-cn/zh-cn.js
+[ log ] 127.0.0.1/admin/base/info/undefinedlang/zh-cn/zh-cn.js [运行时间：0.065000s][吞吐率：15.38req/s] [内存消耗：3,475.30kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'info',
+    2 => 'undefinedlang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/base/info/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/static/admin/js/jquery.min.map
+[ log ] 127.0.0.1/admin/static/admin/js/jquery.min.map [运行时间：0.039000s][吞吐率：25.64req/s] [内存消耗：2,726.87kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/info/undefinedthemes/default/css/ueditor.css
+[ log ] 127.0.0.1/admin/base/info/undefinedthemes/default/css/ueditor.css [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：3,475.48kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'info',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/admin/base/info/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/info/index.html
+[ log ] 127.0.0.1/admin/base/info/index.html [运行时间：0.076000s][吞吐率：13.16req/s] [内存消耗：5,236.04kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'info',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/base/info/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] admin\base\controller\Info->index[ D:\wamp64\www\hengtong\appadmin\base\controller\Info.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\admin/../appadmin/base\view\info\index.php [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_info` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/static/admin/ueditor/ueditor.config.js
+[ log ] 127.0.0.1/admin/static/admin/ueditor/ueditor.config.js [运行时间：0.068000s][吞吐率：14.71req/s] [内存消耗：2,726.99kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'ueditor',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/base/info/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/static/admin/js/jquery.min.map
+[ log ] 127.0.0.1/admin/static/admin/js/jquery.min.map [运行时间：0.056000s][吞吐率：17.86req/s] [内存消耗：2,726.87kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/info/undefinedlang/zh-cn/zh-cn.js
+[ log ] 127.0.0.1/admin/base/info/undefinedlang/zh-cn/zh-cn.js [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：3,475.34kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'info',
+    2 => 'undefinedlang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/admin/base/info/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'cn' => 'zh-cn.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:08:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/info/undefinedthemes/default/css/ueditor.css
+[ log ] 127.0.0.1/admin/base/info/undefinedthemes/default/css/ueditor.css [运行时间：0.053000s][吞吐率：18.87req/s] [内存消耗：3,475.48kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'info',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/admin/base/info/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:17:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/info/index.html
+[ log ] 127.0.0.1/admin/base/info/index.html [运行时间：0.081000s][吞吐率：12.35req/s] [内存消耗：5,236.04kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'info',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/base/info/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] admin\base\controller\Info->index[ D:\wamp64\www\hengtong\appadmin\base\controller\Info.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\admin/../appadmin/base\view\info\index.php [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_info` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T09:17:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/static/admin/js/jquery.min.map
+[ log ] 127.0.0.1/admin/static/admin/js/jquery.min.map [运行时间：0.043000s][吞吐率：23.26req/s] [内存消耗：2,726.87kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:17:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/info/index.html
+[ log ] 127.0.0.1/admin/base/info/index.html [运行时间：0.088000s][吞吐率：11.36req/s] [内存消耗：5,492.77kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'info',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/base/info/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] admin\base\controller\Info->index[ D:\wamp64\www\hengtong\appadmin\base\controller\Info.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\admin/../appadmin/base\view\info\index.php [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_info` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T09:17:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/static/admin/js/jquery.min.map
+[ log ] 127.0.0.1/admin/static/admin/js/jquery.min.map [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：2,726.87kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:21:53+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/base/info/index/id/1.html
+[ log ] 127.0.0.1/admin/base/info/index/id/1.html [运行时间：0.127000s][吞吐率：7.87req/s] [内存消耗：5,213.09kb] [文件加载：62]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'info',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '5560',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/admin/base/info/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'heading' => '恒通，技术派研发',
+  'eng_heading' => 'HENGTONG SCIENCE AND TECHNOLOGY',
+  'sub_heading' => '业界没有最好的技术，只有最棒的技术开发者 定制研发，为您的客户和团队',
+  'power' => 'COPYRIGHT 2018-2028 恒通版权所有',
+  'case_info' => '皖ICP备 XXXXXXXX号-XX',
+  'logo_url' => '\\images\\info\\20180514\\3f468e5ef759e056a4e5835da9614381.png',
+  'bg_url' => '\\images\\info\\20180514\\b006c7d82857676797e573eb48990eeb.png',
+  'sub_url' => '\\images\\info\\20180514\\9535bdf91fc6aad2041bff6efe2b7186.png',
+  'qr_url' => '\\images\\info\\20180514\\f7dc285d1c23ce7eeef3fc38510a1924.png',
+  'description' => '<p>安徽恒通信息技术有限公司，2018年一月正式成立。自创立以来，经过几个月的运营与管理，公司内部机制逐渐成熟完善，员工业务能力强，公司对外合作项目稳定，为公司未来发展奠定了良好的基础。</p><p>本公司注册资金达500万元整 ，主营：软件开发、网站建设、信息系统集成服务、运行维护服务、信息技术咨询服务，物联网技术服务等业务。现公司团队共有7名核心工作人员，负责公司业务、技术操作、技术研发、售后服务等各部门职务。公司业务繁而不乱，多而不杂;软件开发、网站建设、网站运营维护人员业务水平高，专业能力强;更有精英云集的技术研发团队在为本公司不断注入新活力，不断创新、不断发展。本公司始终秉承着“产品优良、服务优先”的经营原则，在产品出售和售后服务方面专业、耐心，为每一位顾客解决问题，不定期向顾客随机抽取建议与意见，总结归纳并提升自我。</p><p>富有感染力，积极上进的企业文化精神是本公司起步创业的动力;拥有业务能力高超，素质过硬的员工是本公司成长完善的资本；新世纪现代科学技术市场的庞大是本公司发展壮大的垫脚石。在未来，恒通信息技术有限公司将抓住机遇，在信息技术大潮中一展身手，显现出公司独特的资质。</p><p>安徽恒通信息技术有限公司，专注于科技，服务于社会。</p><p><br/></p><p><br/></p><p><br/></p>',
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] admin\base\controller\Info->index[ D:\wamp64\www\hengtong\appadmin\base\controller\Info.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_info` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] UPDATE `tp_base_info`  SET `description`='<p>安徽恒通信息技术有限公司，2018年一月正式成立。自创立以来，经过几个月的运营与管理，公司内部机制逐渐成熟完善，员工业务能力强，公司对外合作项目稳定，为公司未来发展奠定了良好的基础。</p><p>本公司注册资金达500万元整 ，主营：软件开发、网站建设、信息系统集成服务、运行维护服务、信息技术咨询服务，物联网技术服务等业务。现公司团队共有7名核心工作人员，负责公司业务、技术操作、技术研发、售后服务等各部门职务。公司业务繁而不乱，多而不杂;软件开发、网站建设、网站运营维护人员业务水平高，专业能力强;更有精英云集的技术研发团队在为本公司不断注入新活力，不断创新、不断发展。本公司始终秉承着“产品优良、服务优先”的经营原则，在产品出售和售后服务方面专业、耐心，为每一位顾客解决问题，不定期向顾客随机抽取建议与意见，总结归纳并提升自我。</p><p>富有感染力，积极上进的企业文化精神是本公司起步创业的动力;拥有业务能力高超，素质过硬的员工是本公司成长完善的资本；新世纪现代科学技术市场的庞大是本公司发展壮大的垫脚石。在未来，恒通信息技术有限公司将抓住机遇，在信息技术大潮中一展身手，显现出公司独特的资质。</p><p>安徽恒通信息技术有限公司，专注于科技，服务于社会。</p><p><br/></p><p><br/></p><p><br/></p>'  WHERE  `id` = 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T09:21:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/info/index.html
+[ log ] 127.0.0.1/admin/base/info/index.html [运行时间：0.097000s][吞吐率：10.31req/s] [内存消耗：5,240.49kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'info',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/base/info/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] admin\base\controller\Info->index[ D:\wamp64\www\hengtong\appadmin\base\controller\Info.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\admin/../appadmin/base\view\info\index.php [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_info` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T09:21:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/static/admin/js/jquery.min.map
+[ log ] 127.0.0.1/admin/static/admin/js/jquery.min.map [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：2,726.87kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T09:22:30+08:00 ] 127.0.0.1 127.0.0.1 GET /web/index/index
+[ log ] 127.0.0.1/web/index/index [运行时间：0.109000s][吞吐率：9.17req/s] [内存消耗：5,865.41kb] [文件加载：70]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] web\index\controller\Index->index[ D:\wamp64\www\hengtong\appweb\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\web/../appweb/index\view\index\index.php [ array (
+  0 => 'info',
+  1 => 'serviceList',
+  2 => 'caseList',
+  3 => 'partnerList',
+  4 => 'contactList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_info` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_service` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_service` ORDER BY sort asc LIMIT 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case` ORDER BY sort asc LIMIT 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_partner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_partner` ORDER BY sort asc LIMIT 8 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_contact` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_contact` ORDER BY sort asc LIMIT 3 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T10:53:38+08:00 ] 127.0.0.1 127.0.0.1 GET /web/index/index/index.html
+[ log ] 127.0.0.1/web/index/index/index.html [运行时间：0.124000s][吞吐率：8.06req/s] [内存消耗：5,557.75kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/web/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] web\index\controller\Index->index[ D:\wamp64\www\hengtong\appweb\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\web/../appweb/index\view\index\index.php [ array (
+  0 => 'info',
+  1 => 'serviceList',
+  2 => 'caseList',
+  3 => 'partnerList',
+  4 => 'contactList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_info` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_service` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_service` ORDER BY sort asc LIMIT 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case` ORDER BY sort asc LIMIT 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_partner` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_partner` ORDER BY sort asc LIMIT 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_contact` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_contact` ORDER BY sort asc LIMIT 3 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T10:53:53+08:00 ] 127.0.0.1 127.0.0.1 GET /web/index/index/index.html
+[ log ] 127.0.0.1/web/index/index/index.html [运行时间：0.117000s][吞吐率：8.55req/s] [内存消耗：5,557.80kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/web/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] web\index\controller\Index->index[ D:\wamp64\www\hengtong\appweb\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\web/../appweb/index\view\index\index.php [ array (
+  0 => 'info',
+  1 => 'serviceList',
+  2 => 'caseList',
+  3 => 'partnerList',
+  4 => 'contactList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_info` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_service` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_service` ORDER BY sort asc LIMIT 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case` ORDER BY sort asc LIMIT 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_partner` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_partner` ORDER BY sort asc LIMIT 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_contact` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_contact` ORDER BY sort asc LIMIT 3 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T12:09:44+08:00 ] 127.0.0.1 127.0.0.1 GET /web/index/index/index.html
+[ log ] 127.0.0.1/web/index/index/index.html [运行时间：0.103000s][吞吐率：9.71req/s] [内存消耗：5,557.76kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/web/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] web\index\controller\Index->index[ D:\wamp64\www\hengtong\appweb\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\web/../appweb/index\view\index\index.php [ array (
+  0 => 'info',
+  1 => 'serviceList',
+  2 => 'caseList',
+  3 => 'partnerList',
+  4 => 'contactList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_info` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_service` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_service` ORDER BY sort asc LIMIT 8 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case` ORDER BY sort asc LIMIT 6 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_partner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_partner` ORDER BY sort asc LIMIT 8 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_contact` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_contact` ORDER BY sort asc LIMIT 3 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T12:09:46+08:00 ] 127.0.0.1 127.0.0.1 GET /web/index/index/index.html
+[ log ] 127.0.0.1/web/index/index/index.html [运行时间：0.109000s][吞吐率：9.17req/s] [内存消耗：5,557.80kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/web/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] web\index\controller\Index->index[ D:\wamp64\www\hengtong\appweb\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\web/../appweb/index\view\index\index.php [ array (
+  0 => 'info',
+  1 => 'serviceList',
+  2 => 'caseList',
+  3 => 'partnerList',
+  4 => 'contactList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_info` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_service` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_service` ORDER BY sort asc LIMIT 8 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case` ORDER BY sort asc LIMIT 6 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_partner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_partner` ORDER BY sort asc LIMIT 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_contact` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_contact` ORDER BY sort asc LIMIT 3 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T12:17:38+08:00 ] 127.0.0.1 127.0.0.1 GET /web/index/index/caselist.html
+[ log ] 127.0.0.1/web/index/index/caselist.html [运行时间：0.124000s][吞吐率：8.06req/s] [内存消耗：5,348.72kb] [文件加载：66]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'caselist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/web/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] web\index\controller\Index->caseList[ D:\wamp64\www\hengtong\appweb\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\web/../appweb/index\view\index\caseList.php [ array (
+  0 => 'info',
+  1 => 'contactList',
+  2 => 'list',
+  3 => 'total',
+  4 => 'cateList',
+  5 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_info` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_contact` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_contact` ORDER BY sort asc LIMIT 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case` ORDER BY sort asc LIMIT 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_base_case` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case_category` ORDER BY sort asc LIMIT 4 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T12:17:41+08:00 ] 127.0.0.1 127.0.0.1 POST /web/api/index/caselist.html
+[ log ] 127.0.0.1/web/api/index/caselist.html [运行时间：0.071000s][吞吐率：14.08req/s] [内存消耗：4,920.06kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'caselist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/web/index/index/caselist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+  'cate_id' => '0',
+  'is_cate' => '0',
+)
+[ info ] [ RUN ] web\api\controller\Index->caseList[ D:\wamp64\www\hengtong\appweb\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case` ORDER BY sort asc LIMIT 6,6 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T12:17:43+08:00 ] 127.0.0.1 127.0.0.1 POST /web/api/index/caselist.html
+[ log ] 127.0.0.1/web/api/index/caselist.html [运行时间：0.111000s][吞吐率：9.01req/s] [内存消耗：4,922.96kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'caselist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/web/index/index/caselist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'cate_id' => '0',
+  'is_cate' => '0',
+)
+[ info ] [ RUN ] web\api\controller\Index->caseList[ D:\wamp64\www\hengtong\appweb\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case` ORDER BY sort asc LIMIT 0,6 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T12:17:45+08:00 ] 127.0.0.1 127.0.0.1 POST /web/api/index/caselist.html
+[ log ] 127.0.0.1/web/api/index/caselist.html [运行时间：0.119000s][吞吐率：8.40req/s] [内存消耗：4,918.46kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'caselist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/web/index/index/caselist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'cate_id' => '1',
+  'is_cate' => '1',
+)
+[ info ] [ RUN ] web\api\controller\Index->caseList[ D:\wamp64\www\hengtong\appweb\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case` WHERE  `cate_id` = 1 ORDER BY sort asc LIMIT 0,6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_base_case` WHERE  `cate_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T12:17:46+08:00 ] 127.0.0.1 127.0.0.1 POST /web/api/index/caselist.html
+[ log ] 127.0.0.1/web/api/index/caselist.html [运行时间：0.086000s][吞吐率：11.63req/s] [内存消耗：4,918.48kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'caselist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/web/index/index/caselist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'cate_id' => '2',
+  'is_cate' => '1',
+)
+[ info ] [ RUN ] web\api\controller\Index->caseList[ D:\wamp64\www\hengtong\appweb\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case` WHERE  `cate_id` = 2 ORDER BY sort asc LIMIT 0,6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_base_case` WHERE  `cate_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T12:17:47+08:00 ] 127.0.0.1 127.0.0.1 POST /web/api/index/caselist.html
+[ log ] 127.0.0.1/web/api/index/caselist.html [运行时间：0.087000s][吞吐率：11.49req/s] [内存消耗：4,918.46kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'caselist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/web/index/index/caselist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'cate_id' => '1',
+  'is_cate' => '1',
+)
+[ info ] [ RUN ] web\api\controller\Index->caseList[ D:\wamp64\www\hengtong\appweb\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case` WHERE  `cate_id` = 1 ORDER BY sort asc LIMIT 0,6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_base_case` WHERE  `cate_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T12:17:48+08:00 ] 127.0.0.1 127.0.0.1 POST /web/api/index/caselist.html
+[ log ] 127.0.0.1/web/api/index/caselist.html [运行时间：0.118000s][吞吐率：8.47req/s] [内存消耗：4,922.24kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'caselist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/web/index/index/caselist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+  'cate_id' => '1',
+  'is_cate' => '0',
+)
+[ info ] [ RUN ] web\api\controller\Index->caseList[ D:\wamp64\www\hengtong\appweb\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case` WHERE  `cate_id` = 1 ORDER BY sort asc LIMIT 6,6 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T12:17:50+08:00 ] 127.0.0.1 127.0.0.1 POST /web/api/index/caselist.html
+[ log ] 127.0.0.1/web/api/index/caselist.html [运行时间：0.091000s][吞吐率：10.99req/s] [内存消耗：4,925.88kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'caselist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/web/index/index/caselist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'cate_id' => '1',
+  'is_cate' => '0',
+)
+[ info ] [ RUN ] web\api\controller\Index->caseList[ D:\wamp64\www\hengtong\appweb\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case` WHERE  `cate_id` = 1 ORDER BY sort asc LIMIT 0,6 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T12:18:58+08:00 ] 127.0.0.1 127.0.0.1 GET /web/index/index/casedetail/id/7
+[ log ] 127.0.0.1/web/index/index/casedetail/id/7 [运行时间：0.121000s][吞吐率：8.26req/s] [内存消耗：5,274.28kb] [文件加载：65]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'casedetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/web/index/index/caselist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] web\index\controller\Index->caseDetail[ D:\wamp64\www\hengtong\appweb\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\web/../appweb/index\view\index\caseDetail.php [ array (
+  0 => 'info',
+  1 => 'contactList',
+  2 => 'case',
+  3 => 'prev',
+  4 => 'next',
+  5 => 'nav',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_info` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_contact` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_contact` ORDER BY sort asc LIMIT 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`name` FROM `tp_base_case` `a` LEFT JOIN `tp_base_case_category` `b` ON `a`.`cate_id`=`b`.`id` WHERE  `a`.`id` = '7' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case` ORDER BY sort asc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T14:35:24+08:00 ] 127.0.0.1 127.0.0.1 GET /web/index/index/index.html
+[ log ] 127.0.0.1/web/index/index/index.html [运行时间：0.110000s][吞吐率：9.09req/s] [内存消耗：5,557.57kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/web/index/index/casedetail/id/7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] web\index\controller\Index->index[ D:\wamp64\www\hengtong\appweb\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\web/../appweb/index\view\index\index.php [ array (
+  0 => 'info',
+  1 => 'serviceList',
+  2 => 'caseList',
+  3 => 'partnerList',
+  4 => 'contactList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_info` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_service` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_service` ORDER BY sort asc LIMIT 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case` ORDER BY sort asc LIMIT 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_partner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_partner` ORDER BY sort asc LIMIT 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_contact` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_contact` ORDER BY sort asc LIMIT 3 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T14:38:45+08:00 ] 127.0.0.1 127.0.0.1 GET /web/static/css/bootstrap.css.map
+[ log ] 127.0.0.1/web/static/css/bootstrap.css.map [运行时间：0.039000s][吞吐率：25.64req/s] [内存消耗：2,726.42kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T15:36:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/partner/index.html
+[ log ] 127.0.0.1/admin/base/partner/index.html [运行时间：0.169000s][吞吐率：5.92req/s] [内存消耗：5,503.56kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'partner',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] admin\base\controller\Partner->index[ D:\wamp64\www\hengtong\appadmin\base\controller\Partner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\admin/../appadmin/base\view\partner\index.php [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_partner` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_base_partner` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_partner` ORDER BY sort asc LIMIT 0,50 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T15:36:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/static/admin/js/jquery.min.map
+[ log ] 127.0.0.1/admin/static/admin/js/jquery.min.map [运行时间：0.064000s][吞吐率：15.62req/s] [内存消耗：2,726.87kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T15:36:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/contact/index.html
+[ log ] 127.0.0.1/admin/base/contact/index.html [运行时间：0.115000s][吞吐率：8.70req/s] [内存消耗：5,482.14kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'contact',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] admin\base\controller\Contact->index[ D:\wamp64\www\hengtong\appadmin\base\controller\Contact.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\admin/../appadmin/base\view\contact\index.php [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_contact` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_base_contact` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_contact` ORDER BY sort asc LIMIT 0,50 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T15:36:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/static/admin/js/jquery.min.map
+[ log ] 127.0.0.1/admin/static/admin/js/jquery.min.map [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：2,726.87kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T15:36:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/partner/index.html
+[ log ] 127.0.0.1/admin/base/partner/index.html [运行时间：0.095000s][吞吐率：10.53req/s] [内存消耗：5,503.34kb] [文件加载：68]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'partner',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] admin\base\controller\Partner->index[ D:\wamp64\www\hengtong\appadmin\base\controller\Partner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\admin/../appadmin/base\view\partner\index.php [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_partner` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_base_partner` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_partner` ORDER BY sort asc LIMIT 0,50 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T15:36:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/static/admin/js/jquery.min.map
+[ log ] 127.0.0.1/admin/static/admin/js/jquery.min.map [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：2,726.87kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T15:36:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/cases/index.html
+[ log ] 127.0.0.1/admin/base/cases/index.html [运行时间：0.106000s][吞吐率：9.43req/s] [内存消耗：5,581.52kb] [文件加载：69]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'cases',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] admin\base\controller\Cases->index[ D:\wamp64\www\hengtong\appadmin\base\controller\Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\admin/../appadmin/base\view\cases\index.php [ array (
+  0 => 'list',
+  1 => 'page',
+  2 => 'cateList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_base_case` `a` LEFT JOIN `tp_base_case_category` `b` ON `a`.`cate_id`=`b`.`id` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`name` FROM `tp_base_case` `a` LEFT JOIN `tp_base_case_category` `b` ON `a`.`cate_id`=`b`.`id` ORDER BY sort asc LIMIT 0,50 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case_category` ORDER BY sort asc [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T15:36:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/static/admin/js/jquery.min.map
+[ log ] 127.0.0.1/admin/static/admin/js/jquery.min.map [运行时间：0.051000s][吞吐率：19.61req/s] [内存消耗：2,726.87kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T15:36:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/base/cases/casesedit/id/8.html
+[ log ] 127.0.0.1/admin/base/cases/casesedit/id/8.html [运行时间：0.095000s][吞吐率：10.53req/s] [内存消耗：5,417.26kb] [文件加载：67]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'base',
+    1 => 'cases',
+    2 => 'casesedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/base/cases/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'id' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] admin\base\controller\Cases->casesEdit[ D:\wamp64\www\hengtong\appadmin\base\controller\Cases.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp64\www\hengtong\admin/../appadmin/base\view\cases\casesEdit.php [ array (
+  0 => 'info',
+  1 => 'cateList',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=hengtong;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_base_case_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_base_case_category` ORDER BY sort asc [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-16T15:36:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/static/admin/js/jquery.min.map
+[ log ] 127.0.0.1/admin/static/admin/js/jquery.min.map [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：2,726.87kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-05-16T15:36:58+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/upload/image/type/cases.html
+[ log ] 127.0.0.1/admin/index/upload/image/type/cases.html [运行时间：0.113000s][吞吐率：8.85req/s] [内存消耗：3,560.34kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp64\www\hengtong\thinkphp5.5\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upload',
+    2 => 'image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '2876446',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarycnUH7kLuFGZX86P4',
+  'referer' => 'http://127.0.0.1/admin/base/cases/casesedit/id/8.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qnhbupqkbpj0q8q1nl3s6tup33',
+)
+[ info ] [ PARAM ] array (
+  'type' => 'cases',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] admin\index\controller\Upload->image[ D:\wamp64\www\hengtong\appadmin\index\controller\Upload.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
